@@ -1,0 +1,36 @@
+#!/bin/sh
+#
+# Temporarily prevent network connectivity over HTTP/HTTPS
+# Copyright 2020 Bitnami.com All Rights Reserved
+#
+
+. /opt/bitnami/scripts/init/functions
+
+# disable networking temporarily
+# Insert this rules first, to ensure this rules are bypassed by earlier ones
+iptables -I INPUT \! -d 127.0.0.1/32 -p tcp --destination-port 80 -j DROP
+iptables -I INPUT \! -d 127.0.0.1/32 -p tcp --destination-port 443 -j DROP
+
+# Check that nc is available first,
+# so we can give a proper error message if it is not
+if ! command -v nc > /dev/null; then
+  log ERROR 'nc is not installed. Port closed validation skipped!'
+  exit 0
+fi
+
+# Using nc, test that the ports have been properly closed as expected
+TIMEOUT=2
+ip=$(get_local_ip_address_fallback)
+
+if [ -z "$ip" ]; then
+  log WARNING 'Network interfaces are not ready yet. Port closed validation skipped!'
+  exit 0
+fi
+
+for port in 80 443; do
+  if nc -zv -w "${TIMEOUT}" "${ip}" "${port}" 2>&1 |grep -q 'timed out'; then
+    log INFO "${port} has been blocked"
+  else
+    log ERROR "${port} was not blocked!"
+  fi
+done

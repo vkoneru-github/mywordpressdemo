@@ -1,0 +1,42 @@
+## 2020-03-27 18:51:57+00:00 ## INFO ## Running /opt/bitnami/var/init/pre-start/010_resize_fs...
+resize2fs 1.42.13 (17-May-2015)
+The filesystem is already 5242619 (4k) blocks long.  Nothing to do!
+
+## 2020-03-27 18:51:57+00:00 ## INFO ## Running /opt/bitnami/var/init/pre-start/020_hostname...
+## 2020-03-27 18:51:57+00:00 ## INFO ## Running /opt/bitnami/var/init/pre-start/030_stack_etc...
+## 2020-03-27 18:51:57+00:00 ## INFO ## Running /opt/bitnami/var/init/pre-start/040_clean_pids...
+## 2020-03-27 18:51:57+00:00 ## INFO ## Running /opt/bitnami/var/init/pre-start/050_check_if_demo_machine...
+## 2020-03-27 18:51:58+00:00 ## INFO ## Running /opt/bitnami/var/init/pre-start/060_change_boot_log_permissions...
+## 2020-03-27 18:51:58+00:00 ## INFO ## Running /opt/bitnami/var/init/pre-start/070_prevent_incoming_connections...
+## 2020-03-27 18:52:00+00:00 ## INFO ## 80 has been blocked
+## 2020-03-27 18:52:02+00:00 ## INFO ## 443 has been blocked
+## 2020-03-27 18:52:02+00:00 ## INFO ## Running /opt/bitnami/var/init/pre-start/080_get_default_passwords...
+
+#########################################################################
+#                                                                       #
+#        Setting Bitnami application password to 'lfipCf200XlX'         #
+#        (the default application username is 'user')                   #
+#                                                                       #
+#########################################################################
+
+## 2020-03-27 18:52:02+00:00 ## INFO ## Running /opt/bitnami/var/init/pre-start/090_swap_file...
+650000+0 records in
+650000+0 records out
+665600000 bytes (666 MB, 635 MiB) copied, 9.24469 s, 72.0 MB/s
+Setting up swapspace version 1, size = 634.8 MiB (665595904 bytes)
+no label, UUID=63bc644e-cec8-4587-8054-f9be9fbcace6
+## 2020-03-27 18:52:13+00:00 ## INFO ## Running /opt/bitnami/var/init/pre-start/100_regenerate_keys...
+[Fri Mar 27 18:52:21 UTC 2020] Regenerating keys for wordpress
+[Fri Mar 27 18:52:27 UTC 2020] Regenerating keys for wordpress finished
+[Fri Mar 27 18:52:27 UTC 2020] Regenerating keys for apache2
+[Fri Mar 27 18:52:37 UTC 2020] Regenerating keys for apache2 finished
+[Fri Mar 27 18:52:37 UTC 2020] Finished regenerating keys
+## 2020-03-27 18:52:37+00:00 ## INFO ## Running /opt/bitnami/var/init/pre-start/110_configure_default_passwords...
+[Fri Mar 27 18:52:37 UTC 2020] Setting up password for apache2 service
+[Fri Mar 27 18:52:40 UTC 2020] Setting up password for apache2 service finished
+[Fri Mar 27 18:52:40 UTC 2020] Setting up password for mysql service
+[Fri Mar 27 18:53:00 UTC 2020] Setting up password for mysql service finished
+[Fri Mar 27 18:53:00 UTC 2020] Setting up password for wordpress application
+[Fri Mar 27 18:53:06 UTC 2020] Setting up password for wordpress application finished
+[Fri Mar 27 18:53:06 UTC 2020] Finished setting password
+## 2020-03-27 18:53:06+00:00 ## INFO ## Running /opt/bitnami/var/init/pre-start/120_reenable_incoming_connections...

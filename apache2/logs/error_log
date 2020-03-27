@@ -1,0 +1,12 @@
+[Fri Mar 27 18:52:36.887057 2020] [ssl:warn] [pid 2713:tid 140374124967680] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Mar 27 18:52:36.943286 2020] [ssl:warn] [pid 2714:tid 140374124967680] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Mar 27 18:52:36.962080 2020] [mpm_event:notice] [pid 2714:tid 140374124967680] AH00489: Apache/2.4.41 (Unix) OpenSSL/1.1.1d configured -- resuming normal operations
+[Fri Mar 27 18:52:36.962133 2020] [core:notice] [pid 2714:tid 140374124967680] AH00094: Command line: '/opt/bitnami/apache2/bin/httpd.bin -f /opt/bitnami/apache2/conf/httpd.conf'
+[Fri Mar 27 18:53:06.798700 2020] [proxy:error] [pid 2719:tid 140373783455488] (2)No such file or directory: AH02454: FCGI: attempt to connect to Unix domain socket /opt/bitnami/php/var/run/wordpress.sock (wordpress-fpm) failed
+[Fri Mar 27 18:53:06.799531 2020] [proxy_fcgi:error] [pid 2719:tid 140373783455488] [client 98.118.162.79:59746] AH01079: failed to make connection to backend: httpd-UDS
+[Fri Mar 27 18:53:06.803058 2020] [proxy:error] [pid 2719:tid 140373783455488] (2)No such file or directory: AH02454: FCGI: attempt to connect to Unix domain socket /opt/bitnami/php/var/run/wordpress.sock (wordpress-fpm) failed
+[Fri Mar 27 18:53:06.803072 2020] [proxy_fcgi:error] [pid 2719:tid 140373783455488] [client 98.118.162.79:59746] AH01079: failed to make connection to backend: httpd-UDS
+[Fri Mar 27 18:53:07.424398 2020] [proxy:error] [pid 2719:tid 140373766670080] (2)No such file or directory: AH02454: FCGI: attempt to connect to Unix domain socket /opt/bitnami/php/var/run/wordpress.sock (wordpress-fpm) failed
+[Fri Mar 27 18:53:07.424430 2020] [proxy_fcgi:error] [pid 2719:tid 140373766670080] [client 98.118.162.79:59747] AH01079: failed to make connection to backend: httpd-UDS, referer: http://34.201.153.3/wp-admin/
+[Fri Mar 27 18:53:07.424877 2020] [proxy:error] [pid 2719:tid 140373766670080] (2)No such file or directory: AH02454: FCGI: attempt to connect to Unix domain socket /opt/bitnami/php/var/run/wordpress.sock (wordpress-fpm) failed
+[Fri Mar 27 18:53:07.424889 2020] [proxy_fcgi:error] [pid 2719:tid 140373766670080] [client 98.118.162.79:59747] AH01079: failed to make connection to backend: httpd-UDS, referer: http://34.201.153.3/wp-admin/

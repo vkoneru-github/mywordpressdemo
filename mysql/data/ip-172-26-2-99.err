@@ -1,0 +1,7 @@
+2020-03-27T18:52:50.167452Z 0 [Warning] [MY-011068] [Server] The syntax 'expire-logs-days' is deprecated and will be removed in a future release. Please use binlog_expire_logs_seconds instead.
+2020-03-27T18:52:50.177660Z 0 [System] [MY-010116] [Server] /opt/bitnami/mysql/bin/mysqld.bin (mysqld 8.0.18) starting as process 3293
+2020-03-27T18:52:51.988953Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2020-03-27T18:52:52.063684Z 0 [System] [MY-010931] [Server] /opt/bitnami/mysql/bin/mysqld.bin: ready for connections. Version: '8.0.18'  socket: '/opt/bitnami/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server - GPL.
+2020-03-27T18:52:52.107885Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/tmp/mysqlx.sock' bind-address: '::' port: 33060
+2020-03-27T18:52:52.412995Z 10 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.18).
+2020-03-27T18:52:53.819141Z 0 [System] [MY-010910] [Server] /opt/bitnami/mysql/bin/mysqld.bin: Shutdown complete (mysqld 8.0.18)  MySQL Community Server - GPL.

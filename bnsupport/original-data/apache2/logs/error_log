@@ -1,0 +1,19 @@
+[Wed Feb 19 14:36:20.272115 2020] [ssl:warn] [pid 4166:tid 140030986888960] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 19 14:36:20.367348 2020] [ssl:warn] [pid 4167:tid 140030986888960] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 19 14:36:20.391126 2020] [mpm_event:notice] [pid 4167:tid 140030986888960] AH00489: Apache/2.4.41 (Unix) OpenSSL/1.1.1d configured -- resuming normal operations
+[Wed Feb 19 14:36:20.391165 2020] [core:notice] [pid 4167:tid 140030986888960] AH00094: Command line: '/opt/bitnami/apache2/bin/httpd.bin -f /opt/bitnami/apache2/conf/httpd.conf'
+[Wed Feb 19 14:36:37.956772 2020] [mpm_event:notice] [pid 4167:tid 140030986888960] AH00491: caught SIGTERM, shutting down
+[Wed Feb 19 14:36:40.841513 2020] [ssl:warn] [pid 4390:tid 140711328597760] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 19 14:36:40.945463 2020] [ssl:warn] [pid 4391:tid 140711328597760] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 19 14:36:40.978795 2020] [mpm_event:notice] [pid 4391:tid 140711328597760] AH00489: Apache/2.4.41 (Unix) OpenSSL/1.1.1d configured -- resuming normal operations
+[Wed Feb 19 14:36:40.978837 2020] [core:notice] [pid 4391:tid 140711328597760] AH00094: Command line: '/opt/bitnami/apache2/bin/httpd.bin -f /opt/bitnami/apache2/conf/httpd.conf'
+[Wed Feb 19 14:37:20.817942 2020] [mpm_event:notice] [pid 4391:tid 140711328597760] AH00491: caught SIGTERM, shutting down
+[Wed Feb 19 14:37:23.678385 2020] [ssl:warn] [pid 4844:tid 139768224974592] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 19 14:37:23.772788 2020] [ssl:warn] [pid 4845:tid 139768224974592] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 19 14:37:23.809521 2020] [mpm_event:notice] [pid 4845:tid 139768224974592] AH00489: Apache/2.4.41 (Unix) OpenSSL/1.1.1d configured -- resuming normal operations
+[Wed Feb 19 14:37:23.809555 2020] [core:notice] [pid 4845:tid 139768224974592] AH00094: Command line: '/opt/bitnami/apache2/bin/httpd.bin -f /opt/bitnami/apache2/conf/httpd.conf'
+[Wed Feb 19 14:39:03.944198 2020] [mpm_event:notice] [pid 4845:tid 139768224974592] AH00491: caught SIGTERM, shutting down
+[Wed Feb 19 14:39:06.564778 2020] [ssl:warn] [pid 5397:tid 140061296924416] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 19 14:39:06.671297 2020] [ssl:warn] [pid 5398:tid 140061296924416] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 19 14:39:06.698411 2020] [mpm_event:notice] [pid 5398:tid 140061296924416] AH00489: Apache/2.4.41 (Unix) OpenSSL/1.1.1d configured -- resuming normal operations
+[Wed Feb 19 14:39:06.698449 2020] [core:notice] [pid 5398:tid 140061296924416] AH00094: Command line: '/opt/bitnami/apache2/bin/httpd.bin -f /opt/bitnami/apache2/conf/httpd.conf'

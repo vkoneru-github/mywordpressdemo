@@ -1,0 +1,34 @@
+#!/bin/sh
+echo Lightsail: Initializing Instance.
+cat > /etc/ssh/lightsail_instance_ca.pub << EOF
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCo5TKD3wzzjY8Ae85sNbw1eQEO+RXnv9rVYoSBcuLbVFqtx+rpQfrHtY66MSjwTlJ2ynJjhG9L32rzhzSXlq9FjiBbQ5pplNrgJEgzZtrqzPraFc36jx1uY7Q1ygxb989X7um9uYmE/lJWK1EcFU+j8LLtpa3hdjEr+jTLH0opGDQ6HjI3VvR0WjEyDSRydwcaJD5D3JuWpfXSUBe8MpdVAvvYYEXHf6YRJTMyGVDKHIffY5RlnwBSzUVFsZW8uUpQc94dTb1eYREiukPbV9n91pMf+KfTMQeY8WKCLiLgoO9RQTIhHyqVN2VtINLTAdt5xIh6TTuXI6zI+D8V4gavjpfkdRa/OmXllpj+xf3IK7SJQTX6n3IsvKd0iuRMk0kyLFAap3ux/2JxWXgzE4sD3bPJv2bIGCQ9HToQpmz7MsgmmlFt0sQcr2UZ8lMxUZr65Q/NGlywbVT8cAB/RSxFKgXu42roJ0832eM+N77JoGPmdf8gc8dyBbLQGMgR6MmurX/Nl6J+pT5oocQhrrJWTYfNv0KzGlQCDEU/1XPdvwDVmJJEyN2s3QdU2TYNry48DMS0Sr4HgmHhgDP/e3D62XQo7ODl73GWZ+RtceVG0GDHt7lgCEgA8BLQLbFSxTwUZgC8vAu5XR2wOy6ar13abo6GAw3ZRHtcwGVzejyIrw==
+EOF
+echo Lightsail: SSH CA PubKey created.
+echo >> /etc/ssh/sshd_config
+echo 'TrustedUserCAKeys /etc/ssh/lightsail_instance_ca.pub' >> /etc/ssh/sshd_config
+echo Lightsail: SSH CA PubKey regstrd.
+service ssh restart
+echo Lightsail: ssh restarted.
+touch /home/bitnami/bitnami_application_password
+chmod 600 /home/bitnami/bitnami_application_password
+chown bitnami.bitnami /home/bitnami/bitnami_application_password
+
+if [ -f /var/log/boot.log ]; then
+   logfile='/var/log/boot.log'
+else
+   logfile='/var/log/syslog'
+fi
+sleep_time=3
+total_time=0
+until [ $total_time -ge "600" ]; do
+  password=$( cat $logfile | grep -a "Bitnami application password" | grep -oE "'(.*?)'" | tr -d "'" )
+  if [ -n "$password" ]; then
+    echo $password >> /home/bitnami/bitnami_application_password
+    echo Lightsail: Bitnami app password stored in /home/bitnami/bitnami_application_password
+    break
+  fi
+  echo no password found, will retry in $sleep_time seconds
+  total_time=$(( total_time + sleep_time ))
+  sleep $sleep_time
+done
+

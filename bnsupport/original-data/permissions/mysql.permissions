@@ -1,0 +1,770 @@
+mysql:
+total 8912
+drwxr-xr-x 13 root    root    4096 Feb 19 14:39 .
+drwxr-xr-x 18 root    root    4096 Feb 19 14:39 ..
+drwxr-xr-x  2 root    root    4096 Feb 19 14:33 bin
+drwxr-xr-x  2 bitnami root    4096 Feb 19 14:39 bitnami
+-r-xr--r--  1 root    root 8542596 Feb 19 14:09 bnconfig
+drwxr-x---  7 mysql   root    4096 Feb 19 14:36 data
+drwxr-xr-x  3 root    root    4096 Feb 19 14:33 include
+drwxr-xr-x  7 root    root    4096 Feb 19 14:33 lib
+-rw-r--r--  1 root    root  408918 Sep 20 08:30 LICENSE
+-rw-r--r--  1 root    root  102977 Sep 20 08:30 LICENSE.router
+-rw-r--r--  1 bitnami root     674 Feb 19 14:39 my.cnf
+-rw-r--r--  1 root    root     687 Sep 20 08:30 README
+-rw-r--r--  1 root    root     700 Sep 20 08:30 README.router
+drwxrwxr-x  2 root    root    4096 Feb 19 14:32 run
+drwxr-xr-x  2 root    root    4096 Feb 19 14:33 scripts
+drwxr-xr-x 28 root    root    4096 Feb 19 14:33 share
+drwxr-xr-x  2 root    root    4096 Feb 19 14:33 support-files
+drwxrwxrwx  2 root    root    4096 Feb 19 14:35 tmp
+drwxr-xr-x  3 root    root    4096 Feb 19 14:32 var
+
+mysql/bin:
+total 158864
+drwxr-xr-x  2 root root     4096 Feb 19 14:33 .
+drwxr-xr-x 13 root root     4096 Feb 19 14:39 ..
+-rwxr-xr-x  1 root root   295872 Feb  7 11:49 ibd2sdi
+-rwxr-xr-x  1 root root   202176 Feb  7 11:49 innochecksum
+lrwxrwxrwx  1 root root       23 Feb 19 14:33 libcrypto.so.1.1 -> ../lib/libcrypto.so.1.1
+lrwxrwxrwx  1 root root       20 Feb 19 14:33 libssl.so.1.1 -> ../lib/libssl.so.1.1
+-rwxr-xr-x  1 root root   101264 Feb  7 11:49 lz4_decompress
+lrwxrwxrwx  1 root root        7 Feb 19 14:33 myisamchk -> wrapper
+-rwxr-xr-x  1 root root  6734000 Feb  7 11:49 myisamchk.bin
+-rwxr-xr-x  1 root root  6535376 Feb  7 11:49 myisam_ftdump
+-rwxr-xr-x  1 root root  6551024 Feb  7 11:49 myisamlog
+lrwxrwxrwx  1 root root        7 Feb 19 14:33 myisampack -> wrapper
+-rwxr-xr-x  1 root root  6590000 Feb  7 11:49 myisampack.bin
+lrwxrwxrwx  1 root root        7 Feb 19 14:33 my_print_defaults -> wrapper
+-rwxr-xr-x  1 root root   169240 Feb  7 11:49 my_print_defaults.bin
+lrwxrwxrwx  1 root root        7 Feb 19 14:33 mysql -> wrapper
+lrwxrwxrwx  1 root root        7 Feb 19 14:33 mysqladmin -> wrapper
+-rwxr-xr-x  1 root root  6871264 Feb  7 11:49 mysqladmin.bin
+-rwxr-xr-x  1 root root  7119256 Feb  7 11:49 mysql.bin
+lrwxrwxrwx  1 root root        7 Feb 19 14:33 mysqlbinlog -> wrapper
+-rwxr-xr-x  1 root root  7107536 Feb  7 11:49 mysqlbinlog.bin
+lrwxrwxrwx  1 root root        7 Feb 19 14:33 mysqlcheck -> wrapper
+-rwxr-xr-x  1 root root  6880224 Feb  7 11:49 mysqlcheck.bin
+-rwxr-xr-x  1 root root     5057 Feb 19 14:33 mysql_config
+-rwxr-xr-x  1 root root   158848 Feb  7 11:49 mysql_config_editor
+lrwxrwxrwx  1 root root        7 Feb 19 14:33 mysqld -> wrapper
+-rwxr-xr-x  1 root root 57031800 Feb  7 11:49 mysqld.bin
+-rwxr-xr-x  1 root root    27557 Feb 19 14:33 mysqld_multi
+-rwxr-xr-x  1 root root    29894 Feb 19 14:33 mysqld_safe
+lrwxrwxrwx  1 root root        7 Feb 19 14:33 mysqldump -> wrapper
+-rwxr-xr-x  1 root root  6942784 Feb  7 11:49 mysqldump.bin
+-rwxr-xr-x  1 root root     7690 Sep 20 12:08 mysqldumpslow
+lrwxrwxrwx  1 root root        7 Feb 19 14:33 mysqlimport -> wrapper
+-rwxr-xr-x  1 root root  6863456 Feb  7 11:49 mysqlimport.bin
+lrwxrwxrwx  1 root root        7 Feb 19 14:33 mysqlpump -> wrapper
+-rwxr-xr-x  1 root root  7275936 Feb  7 11:49 mysqlpump.bin
+-rwxr-xr-x  1 root root    31552 Feb  7 11:49 mysqlrouter
+-rwxr-xr-x  1 root root   101480 Feb  7 11:49 mysqlrouter_keyring
+-rwxr-xr-x  1 root root   110128 Feb  7 11:49 mysqlrouter_passwd
+-rwxr-xr-x  1 root root    64600 Feb  7 11:49 mysqlrouter_plugin_info
+lrwxrwxrwx  1 root root        7 Feb 19 14:33 mysql_secure_installation -> wrapper
+-rwxr-xr-x  1 root root  6859904 Feb  7 11:49 mysql_secure_installation.bin
+lrwxrwxrwx  1 root root        7 Feb 19 14:33 mysqlshow -> wrapper
+-rwxr-xr-x  1 root root  6866144 Feb  7 11:49 mysqlshow.bin
+lrwxrwxrwx  1 root root        7 Feb 19 14:33 mysqlslap -> wrapper
+-rwxr-xr-x  1 root root  6877024 Feb  7 11:49 mysqlslap.bin
+-rwxr-xr-x  1 root root   210432 Feb  7 11:49 mysql_ssl_rsa_setup
+-rwxr-xr-x  1 root root   105208 Feb  7 11:49 mysql_tzinfo_to_sql
+lrwxrwxrwx  1 root root        7 Feb 19 14:33 mysql_upgrade -> wrapper
+-rwxr-xr-x  1 root root  6943872 Feb  7 11:49 mysql_upgrade.bin
+-rwxr-xr-x  1 root root   811640 Feb  7 11:49 perror
+-rw-r--r--  1 root root        0 Feb  7 11:44 --verbose
+-rwxr-xr-x  1 root root      321 Feb 19 14:33 wrapper
+-rwxr-xr-x  1 root root   117616 Feb  7 11:49 zlib_decompress
+
+mysql/bitnami:
+total 32
+drwxr-xr-x  2 bitnami root    4096 Feb 19 14:39 .
+drwxr-xr-x 13 root    root    4096 Feb 19 14:39 ..
+-rw-rw-r--  1 bitnami bitnami  376 Feb 19 14:39 my-2xlarge.cnf
+lrwxrwxrwx  1 bitnami bitnami   39 Feb 19 14:39 my.cnf -> /opt/bitnami/mysql/bitnami/my-micro.cnf
+-rw-rw-r--  1 bitnami bitnami  376 Feb 19 14:39 my-large.cnf
+-rw-rw-r--  1 bitnami bitnami  375 Feb 19 14:39 my-medium.cnf
+-rw-rw-r--  1 bitnami bitnami  374 Feb 19 14:39 my-micro.cnf
+-rw-rw-r--  1 bitnami bitnami  375 Feb 19 14:39 my-small.cnf
+-rw-rw-r--  1 bitnami bitnami  376 Feb 19 14:39 my-xlarge.cnf
+
+mysql/data:
+total 170644
+drwxr-x---  7 mysql root      4096 Feb 19 14:36 .
+drwxr-xr-x 13 root  root      4096 Feb 19 14:39 ..
+-rw-r-----  1 mysql root        56 Feb 19 14:35 auto.cnf
+-rw-r-----  1 mysql mysql   580284 Feb 19 14:39 binlog.000001
+-rw-r-----  1 mysql mysql       16 Feb 19 14:35 binlog.index
+drwxr-x---  2 mysql mysql     4096 Feb 19 14:36 bitnami_wordpress
+-rw-------  1 mysql root      1676 Feb 19 14:35 ca-key.pem
+-rw-r--r--  1 mysql root      1112 Feb 19 14:35 ca.pem
+-rw-r--r--  1 mysql root      1112 Feb 19 14:35 client-cert.pem
+-rw-------  1 mysql root      1680 Feb 19 14:35 client-key.pem
+-rw-r-----  1 mysql root      5349 Feb 19 14:35 ib_buffer_pool
+-rw-r-----  1 mysql root  12582912 Feb 19 14:39 ibdata1
+-rw-r-----  1 mysql root  50331648 Feb 19 14:39 ib_logfile0
+-rw-r-----  1 mysql root  50331648 Feb 19 14:35 ib_logfile1
+-rw-r-----  1 mysql mysql 12582912 Feb 19 14:35 ibtmp1
+drwxr-x---  2 mysql root      4096 Feb 19 14:35 #innodb_temp
+drwxr-x---  2 mysql root      4096 Feb 19 14:35 mysql
+-rw-r-----  1 mysql mysql      801 Feb 19 14:35 mysqld.log
+-rw-r-----  1 mysql mysql        5 Feb 19 14:35 mysqld.pid
+-rw-r-----  1 mysql root  25165824 Feb 19 14:37 mysql.ibd
+drwxr-x---  2 mysql root      4096 Feb 19 14:35 performance_schema
+-rw-------  1 mysql root      1676 Feb 19 14:35 private_key.pem
+-rw-r--r--  1 mysql root       452 Feb 19 14:35 public_key.pem
+-rw-r--r--  1 mysql root      1112 Feb 19 14:35 server-cert.pem
+-rw-------  1 mysql root      1676 Feb 19 14:35 server-key.pem
+drwxr-x---  2 mysql root      4096 Feb 19 14:35 sys
+-rw-r-----  1 mysql root  11534336 Feb 19 14:39 undo_001
+-rw-r-----  1 mysql root  11534336 Feb 19 14:37 undo_002
+
+mysql/data/bitnami_wordpress:
+total 1848
+drwxr-x--- 2 mysql mysql   4096 Feb 19 14:36 .
+drwxr-x--- 7 mysql root    4096 Feb 19 14:36 ..
+-rw-r----- 1 mysql mysql 147456 Feb 19 14:36 wp_commentmeta.ibd
+-rw-r----- 1 mysql mysql 196608 Feb 19 14:37 wp_comments.ibd
+-rw-r----- 1 mysql mysql 131072 Feb 19 14:37 wp_links.ibd
+-rw-r----- 1 mysql mysql 212992 Feb 19 14:37 wp_options.ibd
+-rw-r----- 1 mysql mysql 147456 Feb 19 14:37 wp_postmeta.ibd
+-rw-r----- 1 mysql mysql 180224 Feb 19 14:39 wp_posts.ibd
+-rw-r----- 1 mysql mysql 147456 Feb 19 14:36 wp_termmeta.ibd
+-rw-r----- 1 mysql mysql 131072 Feb 19 14:37 wp_term_relationships.ibd
+-rw-r----- 1 mysql mysql 147456 Feb 19 14:37 wp_terms.ibd
+-rw-r----- 1 mysql mysql 147456 Feb 19 14:37 wp_term_taxonomy.ibd
+-rw-r----- 1 mysql mysql 147456 Feb 19 14:37 wp_usermeta.ibd
+-rw-r----- 1 mysql mysql 163840 Feb 19 14:37 wp_users.ibd
+
+mysql/data/#innodb_temp:
+total 232
+drwxr-x--- 2 mysql root   4096 Feb 19 14:35 .
+drwxr-x--- 7 mysql root   4096 Feb 19 14:36 ..
+-rw-r----- 1 mysql mysql 81920 Feb 19 14:35 temp_10.ibt
+-rw-r----- 1 mysql mysql 81920 Feb 19 14:35 temp_1.ibt
+-rw-r----- 1 mysql mysql 81920 Feb 19 14:35 temp_2.ibt
+-rw-r----- 1 mysql mysql 81920 Feb 19 14:35 temp_3.ibt
+-rw-r----- 1 mysql mysql 81920 Feb 19 14:35 temp_4.ibt
+-rw-r----- 1 mysql mysql 81920 Feb 19 14:35 temp_5.ibt
+-rw-r----- 1 mysql mysql 81920 Feb 19 14:35 temp_6.ibt
+-rw-r----- 1 mysql mysql 81920 Feb 19 14:35 temp_7.ibt
+-rw-r----- 1 mysql mysql 81920 Feb 19 14:35 temp_8.ibt
+-rw-r----- 1 mysql mysql 81920 Feb 19 14:35 temp_9.ibt
+
+mysql/data/mysql:
+total 36
+drwxr-x--- 2 mysql root  4096 Feb 19 14:35 .
+drwxr-x--- 7 mysql root  4096 Feb 19 14:36 ..
+-rw-r----- 1 mysql root  5602 Feb 19 14:35 general_log_201.sdi
+-rw-r----- 1 mysql root    35 Feb 19 14:35 general_log.CSM
+-rw-r----- 1 mysql root     0 Feb 19 14:35 general_log.CSV
+-rw-r----- 1 mysql root 11827 Feb 19 14:35 slow_log_202.sdi
+-rw-r----- 1 mysql root    35 Feb 19 14:35 slow_log.CSM
+-rw-r----- 1 mysql root     0 Feb 19 14:35 slow_log.CSV
+
+mysql/data/performance_schema:
+total 1412
+drwxr-x--- 2 mysql root  4096 Feb 19 14:35 .
+drwxr-x--- 7 mysql root  4096 Feb 19 14:36 ..
+-rw-r----- 1 mysql root  4187 Feb 19 14:35 accounts_138.sdi
+-rw-r----- 1 mysql root  3689 Feb 19 14:35 cond_instances_77.sdi
+-rw-r----- 1 mysql root 15046 Feb 19 14:35 data_locks_153.sdi
+-rw-r----- 1 mysql root 13176 Feb 19 14:35 data_lock_waits_154.sdi
+-rw-r----- 1 mysql root  7193 Feb 19 14:35 events_errors_su_132.sdi
+-rw-r----- 1 mysql root  7194 Feb 19 14:35 events_errors_su_133.sdi
+-rw-r----- 1 mysql root  7994 Feb 19 14:35 events_errors_su_134.sdi
+-rw-r----- 1 mysql root  7228 Feb 19 14:35 events_errors_su_135.sdi
+-rw-r----- 1 mysql root  6406 Feb 19 14:35 events_errors_su_136.sdi
+-rw-r----- 1 mysql root 10991 Feb 19 14:35 events_stages_cu_104.sdi
+-rw-r----- 1 mysql root 10991 Feb 19 14:35 events_stages_hi_105.sdi
+-rw-r----- 1 mysql root 10604 Feb 19 14:35 events_stages_hi_106.sdi
+-rw-r----- 1 mysql root  7233 Feb 19 14:35 events_stages_su_107.sdi
+-rw-r----- 1 mysql root  8001 Feb 19 14:35 events_stages_su_108.sdi
+-rw-r----- 1 mysql root  7200 Feb 19 14:35 events_stages_su_109.sdi
+-rw-r----- 1 mysql root  7201 Feb 19 14:35 events_stages_su_110.sdi
+-rw-r----- 1 mysql root  6408 Feb 19 14:35 events_stages_su_111.sdi
+-rw-r----- 1 mysql root 33366 Feb 19 14:35 events_statement_112.sdi
+-rw-r----- 1 mysql root 33366 Feb 19 14:35 events_statement_113.sdi
+-rw-r----- 1 mysql root 32979 Feb 19 14:35 events_statement_114.sdi
+-rw-r----- 1 mysql root 21625 Feb 19 14:35 events_statement_115.sdi
+-rw-r----- 1 mysql root 22394 Feb 19 14:35 events_statement_116.sdi
+-rw-r----- 1 mysql root 21592 Feb 19 14:35 events_statement_117.sdi
+-rw-r----- 1 mysql root 21593 Feb 19 14:35 events_statement_118.sdi
+-rw-r----- 1 mysql root 20799 Feb 19 14:35 events_statement_119.sdi
+-rw-r----- 1 mysql root 27693 Feb 19 14:35 events_statement_120.sdi
+-rw-r----- 1 mysql root 26402 Feb 19 14:35 events_statement_121.sdi
+-rw-r----- 1 mysql root  5713 Feb 19 14:35 events_statement_122.sdi
+-rw-r----- 1 mysql root  7327 Feb 19 14:35 events_statement_123.sdi
+-rw-r----- 1 mysql root 20095 Feb 19 14:35 events_transacti_124.sdi
+-rw-r----- 1 mysql root 20095 Feb 19 14:35 events_transacti_125.sdi
+-rw-r----- 1 mysql root 19708 Feb 19 14:35 events_transacti_126.sdi
+-rw-r----- 1 mysql root 14824 Feb 19 14:35 events_transacti_127.sdi
+-rw-r----- 1 mysql root 15593 Feb 19 14:35 events_transacti_128.sdi
+-rw-r----- 1 mysql root 14791 Feb 19 14:35 events_transacti_129.sdi
+-rw-r----- 1 mysql root 14792 Feb 19 14:35 events_transacti_130.sdi
+-rw-r----- 1 mysql root 13998 Feb 19 14:35 events_transacti_131.sdi
+-rw-r----- 1 mysql root 16294 Feb 19 14:35 events_waits_cur_78.sdi
+-rw-r----- 1 mysql root 16294 Feb 19 14:35 events_waits_his_79.sdi
+-rw-r----- 1 mysql root 15907 Feb 19 14:35 events_waits_his_80.sdi
+-rw-r----- 1 mysql root  7200 Feb 19 14:35 events_waits_sum_81.sdi
+-rw-r----- 1 mysql root  7480 Feb 19 14:35 events_waits_sum_82.sdi
+-rw-r----- 1 mysql root  7232 Feb 19 14:35 events_waits_sum_83.sdi
+-rw-r----- 1 mysql root  7199 Feb 19 14:35 events_waits_sum_84.sdi
+-rw-r----- 1 mysql root  8000 Feb 19 14:35 events_waits_sum_85.sdi
+-rw-r----- 1 mysql root  6407 Feb 19 14:35 events_waits_sum_86.sdi
+-rw-r----- 1 mysql root  7223 Feb 19 14:35 file_instances_87.sdi
+-rw-r----- 1 mysql root 19205 Feb 19 14:35 file_summary_by__88.sdi
+-rw-r----- 1 mysql root 24148 Feb 19 14:35 file_summary_by__89.sdi
+-rw-r----- 1 mysql root  3002 Feb 19 14:35 global_status_172.sdi
+-rw-r----- 1 mysql root  3005 Feb 19 14:35 global_variables_175.sdi
+-rw-r----- 1 mysql root 23770 Feb 19 14:35 host_cache_90.sdi
+-rw-r----- 1 mysql root  3387 Feb 19 14:35 hosts_139.sdi
+-rw-r----- 1 mysql root  4447 Feb 19 14:35 keyring_keys_145.sdi
+-rw-r----- 1 mysql root  4013 Feb 19 14:35 log_status_165.sdi
+-rw-r----- 1 mysql root 11773 Feb 19 14:35 memory_summary_b_147.sdi
+-rw-r----- 1 mysql root 10972 Feb 19 14:35 memory_summary_b_148.sdi
+-rw-r----- 1 mysql root 11004 Feb 19 14:35 memory_summary_b_149.sdi
+-rw-r----- 1 mysql root 10971 Feb 19 14:35 memory_summary_b_150.sdi
+-rw-r----- 1 mysql root 10178 Feb 19 14:35 memory_summary_g_146.sdi
+-rw-r----- 1 mysql root 11099 Feb 19 14:35 metadata_locks_152.sdi
+-rw-r----- 1 mysql root  4766 Feb 19 14:35 mutex_instances_91.sdi
+-rw-r----- 1 mysql root  7302 Feb 19 14:35 objects_summary__92.sdi
+-rw-r----- 1 mysql root  3984 Feb 19 14:35 performance_time_93.sdi
+-rw-r----- 1 mysql root  3008 Feb 19 14:35 persisted_variab_178.sdi
+-rw-r----- 1 mysql root 29320 Feb 19 14:35 prepared_stateme_166.sdi
+-rw-r----- 1 mysql root  3802 Feb 19 14:35 replication_appl_158.sdi
+-rw-r----- 1 mysql root  4570 Feb 19 14:35 replication_appl_159.sdi
+-rw-r----- 1 mysql root 18915 Feb 19 14:35 replication_appl_160.sdi
+-rw-r----- 1 mysql root 25930 Feb 19 14:35 replication_appl_161.sdi
+-rw-r----- 1 mysql root  6384 Feb 19 14:35 replication_appl_163.sdi
+-rw-r----- 1 mysql root  4359 Feb 19 14:35 replication_appl_164.sdi
+-rw-r----- 1 mysql root 42285 Feb 19 14:35 replication_conn_155.sdi
+-rw-r----- 1 mysql root 23118 Feb 19 14:35 replication_conn_157.sdi
+-rw-r----- 1 mysql root  7913 Feb 19 14:35 replication_grou_156.sdi
+-rw-r----- 1 mysql root 11632 Feb 19 14:35 replication_grou_162.sdi
+-rw-r----- 1 mysql root  5531 Feb 19 14:35 rwlock_instances_94.sdi
+-rw-r----- 1 mysql root  4387 Feb 19 14:35 session_account__144.sdi
+-rw-r----- 1 mysql root  4379 Feb 19 14:35 session_connect__143.sdi
+-rw-r----- 1 mysql root  3003 Feb 19 14:35 session_status_173.sdi
+-rw-r----- 1 mysql root  3006 Feb 19 14:35 session_variable_176.sdi
+-rw-r----- 1 mysql root  5781 Feb 19 14:35 setup_actors_95.sdi
+-rw-r----- 1 mysql root  3045 Feb 19 14:35 setup_consumers_96.sdi
+-rw-r----- 1 mysql root  6615 Feb 19 14:35 setup_instrument_97.sdi
+-rw-r----- 1 mysql root  6028 Feb 19 14:35 setup_objects_98.sdi
+-rw-r----- 1 mysql root  6462 Feb 19 14:35 setup_threads_99.sdi
+-rw-r----- 1 mysql root  8478 Feb 19 14:35 socket_instances_140.sdi
+-rw-r----- 1 mysql root 20304 Feb 19 14:35 socket_summary_b_141.sdi
+-rw-r----- 1 mysql root 19223 Feb 19 14:35 socket_summary_b_142.sdi
+-rw-r----- 1 mysql root  4595 Feb 19 14:35 status_by_accoun_168.sdi
+-rw-r----- 1 mysql root  3795 Feb 19 14:35 status_by_host_169.sdi
+-rw-r----- 1 mysql root  3827 Feb 19 14:35 status_by_thread_170.sdi
+-rw-r----- 1 mysql root  3794 Feb 19 14:35 status_by_user_171.sdi
+-rw-r----- 1 mysql root  9013 Feb 19 14:35 table_handles_151.sdi
+-rw-r----- 1 mysql root 30750 Feb 19 14:35 table_io_waits_s_100.sdi
+-rw-r----- 1 mysql root 29938 Feb 19 14:35 table_io_waits_s_101.sdi
+-rw-r----- 1 mysql root 53111 Feb 19 14:35 table_lock_waits_102.sdi
+-rw-r----- 1 mysql root 17311 Feb 19 14:35 threads_103.sdi
+-rw-r----- 1 mysql root  5417 Feb 19 14:35 user_defined_fun_179.sdi
+-rw-r----- 1 mysql root  3386 Feb 19 14:35 users_137.sdi
+-rw-r----- 1 mysql root  3834 Feb 19 14:35 user_variables_b_167.sdi
+-rw-r----- 1 mysql root  3830 Feb 19 14:35 variables_by_thr_174.sdi
+-rw-r----- 1 mysql root  7474 Feb 19 14:35 variables_info_177.sdi
+
+mysql/data/sys:
+total 88
+drwxr-x--- 2 mysql root   4096 Feb 19 14:35 .
+drwxr-x--- 7 mysql root   4096 Feb 19 14:36 ..
+-rw-r----- 1 mysql root 114688 Feb 19 14:35 sys_config.ibd
+
+mysql/include:
+total 380
+drwxr-xr-x  3 root root   4096 Feb 19 14:33 .
+drwxr-xr-x 13 root root   4096 Feb 19 14:39 ..
+-rw-r--r--  1 root root   5383 Sep 20 08:30 errmsg.h
+-rw-r--r--  1 root root   3100 Sep 20 08:30 field_types.h
+-rw-r--r--  1 root root   7252 Feb  7 11:22 libaio.h
+-rw-r--r--  1 root root   4386 Sep 20 08:30 my_command.h
+-rw-r--r--  1 root root   3661 Sep 20 08:30 my_compress.h
+-rw-r--r--  1 root root   2603 Sep 20 08:30 my_list.h
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 mysql
+-rw-r--r--  1 root root  34739 Sep 20 08:30 mysql_com.h
+-rw-r--r--  1 root root 217989 Sep 20 12:10 mysqld_error.h
+-rw-r--r--  1 root root  32452 Sep 20 08:30 mysql.h
+-rw-r--r--  1 root root   2996 Sep 20 08:30 mysql_time.h
+-rw-r--r--  1 root root   1089 Sep 20 12:08 mysql_version.h
+-rw-r--r--  1 root root   6752 Sep 20 12:08 mysqlx_ername.h
+-rw-r--r--  1 root root   3901 Sep 20 12:08 mysqlx_error.h
+-rw-r--r--  1 root root   1817 Sep 20 12:08 mysqlx_version.h
+-rw-rw-r--  1 root root   1231 Jul 23  2014 numacompat1.h
+-rw-rw-r--  1 root root  13444 Jul 23  2014 numa.h
+-rw-rw-r--  1 root root   1505 Jul 23  2014 numaif.h
+
+mysql/include/mysql:
+total 28
+drwxr-xr-x 2 root root 4096 Feb 19 14:33 .
+drwxr-xr-x 3 root root 4096 Feb 19 14:33 ..
+-rw-r--r-- 1 root root 7518 Sep 20 08:30 client_plugin.h
+-rw-r--r-- 1 root root 6565 Sep 20 08:30 plugin_auth_common.h
+-rw-r--r-- 1 root root 3848 Sep 20 08:30 udf_registration_types.h
+
+mysql/lib:
+total 22136
+drwxr-xr-x  7 root root    4096 Feb 19 14:33 .
+drwxr-xr-x 13 root root    4096 Feb 19 14:39 ..
+lrwxrwxrwx  1 root root      15 Feb 19 14:33 libaio.so -> libaio.so.1.0.1
+lrwxrwxrwx  1 root root      15 Feb 19 14:33 libaio.so.1 -> libaio.so.1.0.1
+-rwxr-xr-x  1 root root    4072 Feb  7 11:49 libaio.so.1.0.1
+lrwxrwxrwx  1 root root      16 Feb 19 14:33 libcrypto.so -> libcrypto.so.1.1
+-rw-r--r--  1 root root 2362184 Feb  7 11:49 libcrypto.so.1.1
+lrwxrwxrwx  1 root root      20 Feb 19 14:33 libmysqlclient.so -> libmysqlclient.so.21
+lrwxrwxrwx  1 root root      25 Feb 19 14:33 libmysqlclient.so.21 -> libmysqlclient.so.21.1.18
+-rwxr-xr-x  1 root root 7147984 Feb  7 11:49 libmysqlclient.so.21.1.18
+lrwxrwxrwx  1 root root      20 Feb 19 14:33 libmysqlharness.so -> libmysqlharness.so.1
+-rwxr-xr-x  1 root root  892120 Feb  7 11:49 libmysqlharness.so.1
+lrwxrwxrwx  1 root root      24 Feb 19 14:33 libmysqlrouter_http.so -> libmysqlrouter_http.so.1
+-rwxr-xr-x  1 root root  367360 Feb  7 11:49 libmysqlrouter_http.so.1
+lrwxrwxrwx  1 root root      19 Feb 19 14:33 libmysqlrouter.so -> libmysqlrouter.so.1
+-rwxr-xr-x  1 root root 7791808 Feb  7 11:49 libmysqlrouter.so.1
+lrwxrwxrwx  1 root root      15 Feb 19 14:33 libncurses.so -> libncurses.so.5
+lrwxrwxrwx  1 root root      17 Feb 19 14:33 libncurses.so.5 -> libncurses.so.5.9
+-rwxr-xr-x  1 root root  364544 Feb  7 11:49 libncurses.so.5.9
+lrwxrwxrwx  1 root root      12 Feb 19 14:33 libnuma.so -> libnuma.so.1
+-rwxr-xr-x  1 root root   44856 Feb  7 11:49 libnuma.so.1
+-rwxr-xr-x  1 root root  373880 Feb  7 11:49 libprotobuf-lite.so.3.6.1
+-rwxr-xr-x  1 root root 2706408 Feb  7 11:49 libprotobuf.so.3.6.1
+lrwxrwxrwx  1 root root      13 Feb 19 14:33 libssl.so -> libssl.so.1.1
+-rw-r--r--  1 root root  566440 Feb  7 11:49 libssl.so.1.1
+drwxr-xr-x  4 root root    4096 Feb 19 14:32 mecab
+drwxr-xr-x  2 root root    4096 Feb 19 14:33 mysqlrouter
+drwxr-xr-x  2 root root    4096 Feb 19 14:33 pkgconfig
+drwxr-xr-x  3 root root    4096 Feb 19 14:33 plugin
+drwxr-xr-x  2 root root    4096 Feb 19 14:33 private
+
+mysql/lib/mecab:
+total 16
+drwxr-xr-x 4 root root 4096 Feb 19 14:32 .
+drwxr-xr-x 7 root root 4096 Feb 19 14:33 ..
+drwxr-xr-x 5 root root 4096 Feb 19 14:32 dic
+drwxr-xr-x 2 root root 4096 Feb 19 14:33 etc
+
+mysql/lib/mecab/dic:
+total 20
+drwxr-xr-x 5 root root 4096 Feb 19 14:32 .
+drwxr-xr-x 4 root root 4096 Feb 19 14:32 ..
+drwxr-xr-x 2 root root 4096 Feb 19 14:33 ipadic_euc-jp
+drwxr-xr-x 2 root root 4096 Feb 19 14:33 ipadic_sjis
+drwxr-xr-x 2 root root 4096 Feb 19 14:33 ipadic_utf-8
+
+mysql/lib/mecab/dic/ipadic_euc-jp:
+total 40684
+drwxr-xr-x 2 root root     4096 Feb 19 14:33 .
+drwxr-xr-x 5 root root     4096 Feb 19 14:32 ..
+-rw-r--r-- 1 root root   262496 Aug 17  2019 char.bin
+-rw-r--r-- 1 root root      693 Aug 17  2019 dicrc
+-rw-r--r-- 1 root root    55910 Aug 17  2019 left-id.def
+-rw-r--r-- 1 root root  3463716 Aug 17  2019 matrix.bin
+-rw-r--r-- 1 root root     1477 Aug 17  2019 pos-id.def
+-rw-r--r-- 1 root root     6241 Aug 17  2019 rewrite.def
+-rw-r--r-- 1 root root    55910 Aug 17  2019 right-id.def
+-rw-r--r-- 1 root root 37779919 Aug 17  2019 sys.dic
+-rw-r--r-- 1 root root     5409 Aug 17  2019 unk.dic
+
+mysql/lib/mecab/dic/ipadic_sjis:
+total 40548
+drwxr-xr-x 2 root root     4096 Feb 19 14:33 .
+drwxr-xr-x 5 root root     4096 Feb 19 14:32 ..
+-rw-r--r-- 1 root root   262496 Aug 17  2019 char.bin
+-rw-r--r-- 1 root root      693 Aug 17  2019 dicrc
+-rw-r--r-- 1 root root    55910 Aug 17  2019 left-id.def
+-rw-r--r-- 1 root root  3463716 Aug 17  2019 matrix.bin
+-rw-r--r-- 1 root root     1477 Aug 17  2019 pos-id.def
+-rw-r--r-- 1 root root     6241 Aug 17  2019 rewrite.def
+-rw-r--r-- 1 root root    55910 Aug 17  2019 right-id.def
+-rw-r--r-- 1 root root 37638335 Aug 17  2019 sys.dic
+-rw-r--r-- 1 root root     5409 Aug 17  2019 unk.dic
+
+mysql/lib/mecab/dic/ipadic_utf-8:
+total 51836
+drwxr-xr-x 2 root root     4096 Feb 19 14:33 .
+drwxr-xr-x 5 root root     4096 Feb 19 14:32 ..
+-rw-r--r-- 1 root root   262496 Aug 17  2019 char.bin
+-rw-r--r-- 1 root root      693 Aug 17  2019 dicrc
+-rw-r--r-- 1 root root    55910 Aug 17  2019 left-id.def
+-rw-r--r-- 1 root root  3463716 Aug 17  2019 matrix.bin
+-rw-r--r-- 1 root root     1477 Aug 17  2019 pos-id.def
+-rw-r--r-- 1 root root     6241 Aug 17  2019 rewrite.def
+-rw-r--r-- 1 root root    55910 Aug 17  2019 right-id.def
+-rw-r--r-- 1 root root 49199027 Aug 17  2019 sys.dic
+-rw-r--r-- 1 root root     5690 Aug 17  2019 unk.dic
+
+mysql/lib/mecab/etc:
+total 12
+drwxr-xr-x 2 root root 4096 Feb 19 14:33 .
+drwxr-xr-x 4 root root 4096 Feb 19 14:32 ..
+-rw-r--r-- 1 root root 1403 Sep 20 08:30 mecabrc
+
+mysql/lib/mysqlrouter:
+total 2948
+drwxr-xr-x 2 root root    4096 Feb 19 14:33 .
+drwxr-xr-x 7 root root    4096 Feb 19 14:33 ..
+-rwxr-xr-x 1 root root   76936 Feb  7 11:49 http_auth_backend.so
+-rwxr-xr-x 1 root root   39584 Feb  7 11:49 http_auth_realm.so
+-rwxr-xr-x 1 root root  306160 Feb  7 11:49 http_server.so
+-rwxr-xr-x 1 root root   10568 Feb  7 11:49 keepalive.so
+-rwxr-xr-x 1 root root  373880 Feb  7 11:49 libprotobuf-lite.so.3.6.1
+-rwxr-xr-x 1 root root 1260280 Feb  7 11:49 metadata_cache.so
+-rwxr-xr-x 1 root root   56008 Feb  7 11:49 mysql_protocol.so
+-rwxr-xr-x 1 root root  247360 Feb  7 11:49 rest_api.so
+-rwxr-xr-x 1 root root  101112 Feb  7 11:49 rest_metadata_cache.so
+-rwxr-xr-x 1 root root  105472 Feb  7 11:49 rest_router.so
+-rwxr-xr-x 1 root root  138136 Feb  7 11:49 rest_routing.so
+-rwxr-xr-x 1 root root  274976 Feb  7 11:49 routing.so
+
+mysql/lib/pkgconfig:
+total 12
+drwxr-xr-x 2 root root 4096 Feb 19 14:33 .
+drwxr-xr-x 7 root root 4096 Feb 19 14:33 ..
+-rw-r--r-- 1 root root 1444 Sep 20 12:08 mysqlclient.pc
+
+mysql/lib/plugin:
+total 5240
+drwxr-xr-x 3 root root    4096 Feb 19 14:33 .
+drwxr-xr-x 7 root root    4096 Feb 19 14:33 ..
+-rwxr-xr-x 1 root root   21712 Feb  7 11:49 adt_null.so
+-rwxr-xr-x 1 root root   35496 Feb  7 11:49 authentication_ldap_sasl_client.so
+-rwxr-xr-x 1 root root    6472 Feb  7 11:49 auth_socket.so
+-rwxr-xr-x 1 root root   19160 Feb  7 11:49 component_audit_api_message_emit.so
+-rwxr-xr-x 1 root root   27256 Feb  7 11:49 component_log_filter_dragnet.so
+-rwxr-xr-x 1 root root   10568 Feb  7 11:49 component_log_sink_json.so
+-rwxr-xr-x 1 root root   14832 Feb  7 11:49 component_log_sink_syseventlog.so
+-rwxr-xr-x 1 root root   31544 Feb  7 11:49 component_mysqlbackup.so
+-rwxr-xr-x 1 root root  106248 Feb  7 11:49 component_validate_password.so
+-rwxr-xr-x 1 root root   48952 Feb  7 11:49 connection_control.so
+-rwxr-xr-x 1 root root  222856 Feb  7 11:49 ddl_rewriter.so
+drwxr-xr-x 2 root root    4096 Feb 19 14:33 debug
+-rwxr-xr-x 1 root root 2340696 Feb  7 11:49 group_replication.so
+-rwxr-xr-x 1 root root   41136 Feb  7 11:49 ha_example.so
+-rwxr-xr-x 1 root root   47704 Feb  7 11:49 ha_mock.so
+-rwxr-xr-x 1 root root   93632 Feb  7 11:49 innodb_engine.so
+-rwxr-xr-x 1 root root  114768 Feb  7 11:49 keyring_file.so
+-rwxr-xr-x 1 root root   14768 Feb  7 11:49 keyring_udf.so
+lrwxrwxrwx 1 root root      26 Feb 19 14:33 libcrypto.so.1.1 -> ../../lib/libcrypto.so.1.1
+-rwxr-xr-x 1 root root  243360 Feb  7 11:49 libmemcached.so
+-rwxr-xr-x 1 root root 1231000 Feb  7 11:49 libpluginmecab.so
+lrwxrwxrwx 1 root root      23 Feb 19 14:33 libssl.so.1.1 -> ../../lib/libssl.so.1.1
+-rwxr-xr-x 1 root root    6072 Feb  7 11:49 locking_service.so
+-rwxr-xr-x 1 root root   10984 Feb  7 11:49 mypluglib.so
+-rwxr-xr-x 1 root root  202184 Feb  7 11:49 mysql_clone.so
+-rwxr-xr-x 1 root root    6440 Feb  7 11:49 mysql_no_login.so
+-rwxr-xr-x 1 root root    6576 Feb  7 11:49 rewrite_example.so
+-rwxr-xr-x 1 root root  123000 Feb  7 11:49 rewriter.so
+-rwxr-xr-x 1 root root  103152 Feb  7 11:49 semisync_master.so
+-rwxr-xr-x 1 root root   23456 Feb  7 11:49 semisync_slave.so
+-rwxr-xr-x 1 root root   94248 Feb  7 11:49 validate_password.so
+-rwxr-xr-x 1 root root   48352 Feb  7 11:49 version_token.so
+
+mysql/lib/plugin/debug:
+total 9756
+drwxr-xr-x 2 root root    4096 Feb 19 14:33 .
+drwxr-xr-x 3 root root    4096 Feb 19 14:33 ..
+-rwxr-xr-x 1 root root   25840 Feb  7 11:49 adt_null.so
+-rwxr-xr-x 1 root root   23152 Feb  7 11:49 authentication_ldap_sasl_client.so
+-rwxr-xr-x 1 root root    6472 Feb  7 11:49 auth_socket.so
+-rwxr-xr-x 1 root root   61200 Feb  7 11:49 component_audit_api_message_emit.so
+-rwxr-xr-x 1 root root   31392 Feb  7 11:49 component_log_filter_dragnet.so
+-rwxr-xr-x 1 root root   10560 Feb  7 11:49 component_log_sink_json.so
+-rwxr-xr-x 1 root root   19264 Feb  7 11:49 component_log_sink_syseventlog.so
+-rwxr-xr-x 1 root root  127360 Feb  7 11:49 component_mysqlbackup.so
+-rwxr-xr-x 1 root root  127704 Feb  7 11:49 component_validate_password.so
+-rwxr-xr-x 1 root root  128920 Feb  7 11:49 connection_control.so
+-rwxr-xr-x 1 root root  699880 Feb  7 11:49 ddl_rewriter.so
+-rwxr-xr-x 1 root root 5147624 Feb  7 11:49 group_replication.so
+-rwxr-xr-x 1 root root   57872 Feb  7 11:49 ha_example.so
+-rwxr-xr-x 1 root root  151752 Feb  7 11:49 ha_mock.so
+-rwxr-xr-x 1 root root  139400 Feb  7 11:49 innodb_engine.so
+-rwxr-xr-x 1 root root  404312 Feb  7 11:49 keyring_file.so
+-rwxr-xr-x 1 root root   23168 Feb  7 11:49 keyring_udf.so
+lrwxrwxrwx 1 root root      29 Feb 19 14:33 libcrypto.so.1.1 -> ../../../lib/libcrypto.so.1.1
+-rwxr-xr-x 1 root root  327872 Feb  7 11:49 libmemcached.so
+-rwxr-xr-x 1 root root 1235384 Feb  7 11:49 libpluginmecab.so
+lrwxrwxrwx 1 root root      26 Feb 19 14:33 libssl.so.1.1 -> ../../../lib/libssl.so.1.1
+-rwxr-xr-x 1 root root   10168 Feb  7 11:49 locking_service.so
+-rwxr-xr-x 1 root root   10984 Feb  7 11:49 mypluglib.so
+-rwxr-xr-x 1 root root  421696 Feb  7 11:49 mysql_clone.so
+-rwxr-xr-x 1 root root    6440 Feb  7 11:49 mysql_no_login.so
+-rwxr-xr-x 1 root root    6576 Feb  7 11:49 rewrite_example.so
+-rwxr-xr-x 1 root root  241376 Feb  7 11:49 rewriter.so
+-rwxr-xr-x 1 root root  146160 Feb  7 11:49 semisync_master.so
+-rwxr-xr-x 1 root root   27744 Feb  7 11:49 semisync_slave.so
+-rwxr-xr-x 1 root root  123944 Feb  7 11:49 validate_password.so
+-rwxr-xr-x 1 root root  182208 Feb  7 11:49 version_token.so
+
+mysql/lib/private:
+total 3020
+drwxr-xr-x 2 root root    4096 Feb 19 14:33 .
+drwxr-xr-x 7 root root    4096 Feb 19 14:33 ..
+-rwxr-xr-x 1 root root  373880 Feb  7 11:49 libprotobuf-lite.so.3.6.1
+-rwxr-xr-x 1 root root 2706408 Feb  7 11:49 libprotobuf.so.3.6.1
+
+mysql/run:
+total 8
+drwxrwxr-x  2 root root 4096 Feb 19 14:32 .
+drwxr-xr-x 13 root root 4096 Feb 19 14:39 ..
+
+mysql/scripts:
+total 20
+drwxr-xr-x  2 root root 4096 Feb 19 14:33 .
+drwxr-xr-x 13 root root 4096 Feb 19 14:39 ..
+-rwxr-xr-x  1 root root 2637 Feb 19 14:35 ctl.sh
+-rwxr-xr-x  1 root root 1070 Feb 19 14:35 myscript.sh
+-rwxr-xr-x  1 root root  322 Feb 19 14:33 myscript_upgrade.sh
+
+mysql/share:
+total 1040
+drwxr-xr-x 28 root root   4096 Feb 19 14:33 .
+drwxr-xr-x 13 root root   4096 Feb 19 14:39 ..
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 aclocal
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 bulgarian
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 charsets
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 czech
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 danish
+-rw-r--r--  1 root root  25575 Sep 20 08:30 dictionary.txt
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 dutch
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 english
+-rw-r--r--  1 root root 906390 Sep 20 08:30 errmsg-utf8.txt
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 estonian
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 french
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 german
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 greek
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 hungarian
+-rw-r--r--  1 root root   3999 Sep 20 08:30 innodb_memcached_config.sql
+-rw-r--r--  1 root root   2237 Sep 20 12:08 install_rewriter.sql
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 italian
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 japanese
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 korean
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 norwegian
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 norwegian-ny
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 polish
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 portuguese
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 romanian
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 russian
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 serbian
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 slovak
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 spanish
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 swedish
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 ukrainian
+-rw-r--r--  1 root root   1263 Sep 20 12:08 uninstall_rewriter.sql
+
+mysql/share/aclocal:
+total 16
+drwxr-xr-x  2 root root 4096 Feb 19 14:33 .
+drwxr-xr-x 28 root root 4096 Feb 19 14:33 ..
+-rw-r--r--  1 root root 4546 Sep 20 08:30 mysql.m4
+
+mysql/share/bulgarian:
+total 308
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 .
+drwxr-xr-x 28 root root   4096 Feb 19 14:33 ..
+-rw-r--r--  1 root root 303874 Sep 20 12:10 errmsg.sys
+
+mysql/share/charsets:
+total 248
+drwxr-xr-x  2 root root  4096 Feb 19 14:33 .
+drwxr-xr-x 28 root root  4096 Feb 19 14:33 ..
+-rw-r--r--  1 root root  5939 Sep 20 08:30 armscii8.xml
+-rw-r--r--  1 root root  5925 Sep 20 08:30 ascii.xml
+-rw-r--r--  1 root root  8654 Sep 20 08:30 cp1250.xml
+-rw-r--r--  1 root root  8783 Sep 20 08:30 cp1251.xml
+-rw-r--r--  1 root root  5982 Sep 20 08:30 cp1256.xml
+-rw-r--r--  1 root root  9315 Sep 20 08:30 cp1257.xml
+-rw-r--r--  1 root root  5919 Sep 20 08:30 cp850.xml
+-rw-r--r--  1 root root  5941 Sep 20 08:30 cp852.xml
+-rw-r--r--  1 root root  6026 Sep 20 08:30 cp866.xml
+-rw-r--r--  1 root root  6942 Sep 20 08:30 dec8.xml
+-rw-r--r--  1 root root  5929 Sep 20 08:30 geostd8.xml
+-rw-r--r--  1 root root  6141 Sep 20 08:30 greek.xml
+-rw-r--r--  1 root root  5930 Sep 20 08:30 hebrew.xml
+-rw-r--r--  1 root root  5915 Sep 20 08:30 hp8.xml
+-rw-r--r--  1 root root 19495 Sep 20 08:30 Index.xml
+-rw-r--r--  1 root root  5942 Sep 20 08:30 keybcs2.xml
+-rw-r--r--  1 root root  5923 Sep 20 08:30 koi8r.xml
+-rw-r--r--  1 root root  6945 Sep 20 08:30 koi8u.xml
+-rw-r--r--  1 root root 10229 Sep 20 08:30 latin1.xml
+-rw-r--r--  1 root root  7651 Sep 20 08:30 latin2.xml
+-rw-r--r--  1 root root  5928 Sep 20 08:30 latin5.xml
+-rw-r--r--  1 root root  7851 Sep 20 08:30 latin7.xml
+-rw-r--r--  1 root root  8460 Sep 20 08:30 macce.xml
+-rw-r--r--  1 root root  8471 Sep 20 08:30 macroman.xml
+-rw-r--r--  1 root root  1749 Sep 20 08:30 README
+-rw-r--r--  1 root root  6943 Sep 20 08:30 swe7.xml
+
+mysql/share/czech:
+total 308
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 .
+drwxr-xr-x 28 root root   4096 Feb 19 14:33 ..
+-rw-r--r--  1 root root 304266 Sep 20 12:10 errmsg.sys
+
+mysql/share/danish:
+total 308
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 .
+drwxr-xr-x 28 root root   4096 Feb 19 14:33 ..
+-rw-r--r--  1 root root 304266 Sep 20 12:10 errmsg.sys
+
+mysql/share/dutch:
+total 308
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 .
+drwxr-xr-x 28 root root   4096 Feb 19 14:33 ..
+-rw-r--r--  1 root root 305286 Sep 20 12:10 errmsg.sys
+
+mysql/share/english:
+total 308
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 .
+drwxr-xr-x 28 root root   4096 Feb 19 14:33 ..
+-rw-r--r--  1 root root 303507 Sep 20 12:10 errmsg.sys
+
+mysql/share/estonian:
+total 308
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 .
+drwxr-xr-x 28 root root   4096 Feb 19 14:33 ..
+-rw-r--r--  1 root root 303771 Sep 20 12:10 errmsg.sys
+
+mysql/share/french:
+total 308
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 .
+drwxr-xr-x 28 root root   4096 Feb 19 14:33 ..
+-rw-r--r--  1 root root 304914 Sep 20 12:10 errmsg.sys
+
+mysql/share/german:
+total 312
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 .
+drwxr-xr-x 28 root root   4096 Feb 19 14:33 ..
+-rw-r--r--  1 root root 311159 Sep 20 12:10 errmsg.sys
+
+mysql/share/greek:
+total 312
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 .
+drwxr-xr-x 28 root root   4096 Feb 19 14:33 ..
+-rw-r--r--  1 root root 310298 Sep 20 12:10 errmsg.sys
+
+mysql/share/hungarian:
+total 308
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 .
+drwxr-xr-x 28 root root   4096 Feb 19 14:33 ..
+-rw-r--r--  1 root root 304148 Sep 20 12:10 errmsg.sys
+
+mysql/share/italian:
+total 308
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 .
+drwxr-xr-x 28 root root   4096 Feb 19 14:33 ..
+-rw-r--r--  1 root root 305277 Sep 20 12:10 errmsg.sys
+
+mysql/share/japanese:
+total 312
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 .
+drwxr-xr-x 28 root root   4096 Feb 19 14:33 ..
+-rw-r--r--  1 root root 310953 Sep 20 12:10 errmsg.sys
+
+mysql/share/korean:
+total 308
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 .
+drwxr-xr-x 28 root root   4096 Feb 19 14:33 ..
+-rw-r--r--  1 root root 306547 Sep 20 12:10 errmsg.sys
+
+mysql/share/norwegian:
+total 308
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 .
+drwxr-xr-x 28 root root   4096 Feb 19 14:33 ..
+-rw-r--r--  1 root root 303577 Sep 20 12:10 errmsg.sys
+
+mysql/share/norwegian-ny:
+total 308
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 .
+drwxr-xr-x 28 root root   4096 Feb 19 14:33 ..
+-rw-r--r--  1 root root 303630 Sep 20 12:10 errmsg.sys
+
+mysql/share/polish:
+total 308
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 .
+drwxr-xr-x 28 root root   4096 Feb 19 14:33 ..
+-rw-r--r--  1 root root 304436 Sep 20 12:10 errmsg.sys
+
+mysql/share/portuguese:
+total 308
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 .
+drwxr-xr-x 28 root root   4096 Feb 19 14:33 ..
+-rw-r--r--  1 root root 306467 Sep 20 12:10 errmsg.sys
+
+mysql/share/romanian:
+total 308
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 .
+drwxr-xr-x 28 root root   4096 Feb 19 14:33 ..
+-rw-r--r--  1 root root 305219 Sep 20 12:10 errmsg.sys
+
+mysql/share/russian:
+total 320
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 .
+drwxr-xr-x 28 root root   4096 Feb 19 14:33 ..
+-rw-r--r--  1 root root 318782 Sep 20 12:10 errmsg.sys
+
+mysql/share/serbian:
+total 308
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 .
+drwxr-xr-x 28 root root   4096 Feb 19 14:33 ..
+-rw-r--r--  1 root root 305888 Sep 20 12:10 errmsg.sys
+
+mysql/share/slovak:
+total 308
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 .
+drwxr-xr-x 28 root root   4096 Feb 19 14:33 ..
+-rw-r--r--  1 root root 304033 Sep 20 12:10 errmsg.sys
+
+mysql/share/spanish:
+total 308
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 .
+drwxr-xr-x 28 root root   4096 Feb 19 14:33 ..
+-rw-r--r--  1 root root 305161 Sep 20 12:10 errmsg.sys
+
+mysql/share/swedish:
+total 308
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 .
+drwxr-xr-x 28 root root   4096 Feb 19 14:33 ..
+-rw-r--r--  1 root root 304360 Sep 20 12:10 errmsg.sys
+
+mysql/share/ukrainian:
+total 316
+drwxr-xr-x  2 root root   4096 Feb 19 14:33 .
+drwxr-xr-x 28 root root   4096 Feb 19 14:33 ..
+-rw-r--r--  1 root root 313356 Sep 20 12:10 errmsg.sys
+
+mysql/support-files:
+total 28
+drwxr-xr-x  2 root root  4096 Feb 19 14:33 .
+drwxr-xr-x 13 root root  4096 Feb 19 14:39 ..
+-rwxr-xr-x  1 root root  1061 Sep 20 12:08 mysqld_multi.server
+-rwxr-xr-x  1 root root  2058 Feb 19 14:33 mysql-log-rotate
+-rwxr-xr-x  1 root root 10588 Feb 19 14:33 mysql.server
+
+mysql/tmp:
+total 12
+drwxrwxrwx  2 root  root  4096 Feb 19 14:35 .
+drwxr-xr-x 13 root  root  4096 Feb 19 14:39 ..
+srwxrwxrwx  1 mysql mysql    0 Feb 19 14:35 mysql.sock
+-rw-------  1 mysql mysql    5 Feb 19 14:35 mysql.sock.lock
+
+mysql/var:
+total 12
+drwxr-xr-x  3 root root 4096 Feb 19 14:32 .
+drwxr-xr-x 13 root root 4096 Feb 19 14:39 ..
+drwxr-xr-x  3 root root 4096 Feb 19 14:32 lib
+
+mysql/var/lib:
+total 12
+drwxr-xr-x 3 root root 4096 Feb 19 14:32 .
+drwxr-xr-x 3 root root 4096 Feb 19 14:32 ..
+drwxrwxr-x 2 root root 4096 Feb 19 14:32 mysqlrouter
+
+mysql/var/lib/mysqlrouter:
+total 8
+drwxrwxr-x 2 root root 4096 Feb 19 14:32 .
+drwxr-xr-x 3 root root 4096 Feb 19 14:32 ..

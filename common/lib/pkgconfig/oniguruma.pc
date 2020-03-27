@@ -1,0 +1,13 @@
+prefix=/opt/bitnami/common
+exec_prefix=/opt/bitnami/common
+libdir=/opt/bitnami/common/lib
+includedir=/opt/bitnami/common/include
+datarootdir=/opt/bitnami/common/share
+datadir=/opt/bitnami/common/share
+
+Name: oniguruma
+Description: Regular expression library
+Version: 6.9.4
+Requires:
+Libs: -L${libdir} -lonig
+Cflags: -I${includedir}

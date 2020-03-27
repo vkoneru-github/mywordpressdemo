@@ -1,0 +1,32 @@
+apps/bitnami/banner:
+total 16
+drwxr-xr-x 4 root root 4096 Feb 19 14:32 .
+drwxr-xr-x 3 root root 4096 Feb 19 14:39 ..
+drwxr-xr-x 2 root root 4096 Feb 19 14:35 conf
+drwxr-xr-x 3 root root 4096 Feb 19 14:32 htdocs
+
+apps/bitnami/banner/conf:
+total 16
+drwxr-xr-x 2 root root 4096 Feb 19 14:35 .
+drwxr-xr-x 4 root root 4096 Feb 19 14:32 ..
+-rw-r--r-- 1 root root  966 Feb 19 14:35 banner.conf
+-rw-r--r-- 1 root root 1255 Feb 19 14:32 banner-substitutions.conf
+
+apps/bitnami/banner/htdocs:
+total 52
+drwxr-xr-x 3 root root  4096 Feb 19 14:32 .
+drwxr-xr-x 4 root root  4096 Feb 19 14:32 ..
+-rw-r--r-- 1 root root  1127 Aug 27 14:01 banner.js
+-rw-r--r-- 1 root root  1234 Feb 19 14:39 bitnami.css
+-rw-r--r-- 1 root root  1150 Aug 27 14:02 favicon.ico
+drwxr-xr-x 2 root root  4096 Feb 19 14:32 images
+-rw-r--r-- 1 root root  3457 Feb 19 14:39 index.html
+-rw-r--r-- 1 root root  3700 Feb 19 14:39 logo.png
+-rw-r--r-- 1 root root 17700 Feb 19 14:39 stack_logos.png
+
+apps/bitnami/banner/htdocs/images:
+total 40
+drwxr-xr-x 2 root root  4096 Feb 19 14:32 .
+drwxr-xr-x 3 root root  4096 Feb 19 14:32 ..
+-rw-r--r-- 1 root root  2064 Aug 27 14:01 close.png
+-rw-r--r-- 1 root root 26352 Aug 27 14:01 corner-logo.png
