@@ -301,3 +301,7 @@
 34.201.153.3 - - [28/Mar/2020:00:58:24 +0000] "POST /wp-cron.php?doing_wp_cron=1585357104.3675000667572021484375 HTTP/1.1" 200 -
 98.118.162.79 - - [28/Mar/2020:00:58:24 +0000] "POST /wp-admin/admin-ajax.php HTTP/1.1" 200 104
 176.31.116.217 - - [28/Mar/2020:00:58:54 +0000] "GET / HTTP/1.1" 200 7223
+98.118.162.79 - - [28/Mar/2020:01:00:24 +0000] "POST /wp-admin/admin-ajax.php HTTP/1.1" 200 47
+98.118.162.79 - - [28/Mar/2020:01:02:24 +0000] "POST /wp-admin/admin-ajax.php HTTP/1.1" 200 47
+98.118.162.79 - - [28/Mar/2020:01:03:30 +0000] "POST /wp-admin/admin-ajax.php HTTP/1.1" 200 47
+98.118.162.79 - - [28/Mar/2020:01:04:30 +0000] "POST /wp-admin/admin-ajax.php HTTP/1.1" 200 47
