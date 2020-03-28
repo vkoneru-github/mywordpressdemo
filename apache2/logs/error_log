@@ -10,3 +10,5 @@
 [Fri Mar 27 18:53:07.424430 2020] [proxy_fcgi:error] [pid 2719:tid 140373766670080] [client 98.118.162.79:59747] AH01079: failed to make connection to backend: httpd-UDS, referer: http://34.201.153.3/wp-admin/
 [Fri Mar 27 18:53:07.424877 2020] [proxy:error] [pid 2719:tid 140373766670080] (2)No such file or directory: AH02454: FCGI: attempt to connect to Unix domain socket /opt/bitnami/php/var/run/wordpress.sock (wordpress-fpm) failed
 [Fri Mar 27 18:53:07.424889 2020] [proxy_fcgi:error] [pid 2719:tid 140373766670080] [client 98.118.162.79:59747] AH01079: failed to make connection to backend: httpd-UDS, referer: http://34.201.153.3/wp-admin/
+[Fri Mar 27 20:07:20.376906 2020] [pagespeed:warn] [pid 3866:tid 140372802000640] [mod_pagespeed 1.13.35.2-0 @3866] Failed to read cache clean timestamp /opt/bitnami/apache2/var/cache/mod_pagespeed/!clean!time!.  Doing an extra cache clean to be safe.
+[Fri Mar 27 20:07:20.458747 2020] [pagespeed:warn] [pid 3866:tid 140372793607936] [mod_pagespeed 1.13.35.2-0 @3866] Failed to read cache clean timestamp /opt/bitnami/apache2/var/cache/mod_pagespeed/!clean!time!.  Doing an extra cache clean to be safe.
